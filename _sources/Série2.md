@@ -19,7 +19,7 @@ Le tableau suivant indique l'utilité marginale des deux biens X et Y.
 
 
 
-1. Rappeler la définition du $TMS_{xy}$ 
+1. Rappeler la définition du $TMS_{xy}$.
 
 2. Calculer les différentes valeurs du $TMS_{xy}$
 
@@ -37,7 +37,7 @@ Le tableau suivant indique l'utilité marginale des deux biens X et Y.
 1. Rappeler la définition du TMSxy 
 
     $$
-    TMSxy = \dfrac{Umx}{Umy}
+    TMS_{xy} = \dfrac{Umx}{Umy}
     $$
 
 2. Calculer les différentes valeurs du TMSxy
