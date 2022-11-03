@@ -8,7 +8,7 @@
 ###### Exercice 1
 
 ```{admonition} Enoncé de l'exercice 1
-Soient deux biens X et Y dont les prix unitaires sont respectivement de 20 et 25 DHs. Le consommateur dispose d'un revenu $R= 135$ DHs qu'il dépense entièrement.
+Soient deux biens X et Y dont les prix unitaires sont respectivement de 20 et 25 DHs. Le consommateur dispose d'un revenu $R= 360$ DHs qu'il dépense entièrement.
 
 Le tableau suivant indique l'utilité marginale des deux biens X et Y.
 
@@ -66,7 +66,7 @@ $$
 
 $$
 
-Xpx+ Ypy = 20X+25Y = 8 \times (20+25) = 135 = R
+Xpx+ Ypy = 20X+25Y = 8 \times (20+25) = 360 = R
 
 $$
 
