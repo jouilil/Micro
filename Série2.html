@@ -473,15 +473,15 @@ U(x, y) = 2x + 3y
 \]</div>
 <p>On suppose que le revenu du consommateur est égal à 10.</p>
 <p>1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité <span class="math notranslate nohighlight">\(U_1 = 10\)</span> et <span class="math notranslate nohighlight">\(U_2 = 16\)</span>.</p>
-<p>Pour U =</p>
+<p>Soit U = <span class="math notranslate nohighlight">\(\overline{U}\)</span></p>
 <div class="math notranslate nohighlight">
 \[
-U = 2x + 3y  \Rightarrow y = \dfrac{U-2x}{3}
+U = 2x + 3y  \Rightarrow y = \dfrac{\overline{U}-2x}{3}
 \]</div>
 <p>Pour U = 10, la courbe d’indifférence serait</p>
-<p><span class="math notranslate nohighlight">\( U = 10 \Rightarrow y = \dfrac{10-2x}{3} \)</span></p>
+<p><span class="math notranslate nohighlight">\( \overline{U} = 10 \Rightarrow y = \dfrac{10-2x}{3} \)</span></p>
 <p>Pour U = 16, la courbe d’indifférence serait</p>
-<p><span class="math notranslate nohighlight">\( U = 16 \Rightarrow y = \dfrac{16-2x}{3}\)</span></p>
+<p><span class="math notranslate nohighlight">\( \overline{U} = 16 \Rightarrow y = \dfrac{16-2x}{3}\)</span></p>
 <p>2- Calculer les utilités marginales et le TMS du bien Y au bien X, puis commenter.</p>
 <p><span class="math notranslate nohighlight">\( TMS = \dfrac{Umx}{Umy} \Rightarrow TMS = \dfrac{2}{3}\)</span></p>
 <p><span class="math notranslate nohighlight">\(Um_x = \dfrac{dU(x,y)}{dx}=2\)</span></p>
@@ -490,9 +490,9 @@ U = 2x + 3y  \Rightarrow y = \dfrac{U-2x}{3}
 <p>3- Ecrire l’équation de la droite de budget en notant px et py les prix respectifs des biens
 X et Y. Déterminer sa pente. On donne <span class="math notranslate nohighlight">\((p_x, p_y) = (2,2)\)</span></p>
 <p>La droite du budget</p>
-<p><span class="math notranslate nohighlight">\( R= XPx+Ypy \Rightarrow Y= \dfrac{-Px}{Py}x+\dfrac{R}{Py} \)</span></p>
+<p><span class="math notranslate nohighlight">\( R= XPx+Ypy \Rightarrow Y= \dfrac{-Px}{Py}X+\dfrac{R}{Py} \)</span></p>
 <p>Pour <span class="math notranslate nohighlight">\(P= (Px, Py) = (2,2)\)</span> et <span class="math notranslate nohighlight">\(R=10\)</span></p>
-<p>La droite du budget est la suivante : <span class="math notranslate nohighlight">\(y= -x+ 5\)</span></p>
+<p>La droite du budget est donnée par : <span class="math notranslate nohighlight">\(Y= -X+ 5\)</span></p>
 <p>4- Déterminez l’optimum du consommateur.</p>
 </div>
 </div>
@@ -545,7 +545,8 @@ U(X,Y) = 3XY
     ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
     \end{array}
 \right.\end{split}\]</div>
-<p>Etapé 1 : On tire Y de l’éq. (1) (Remarque : On peut utiliser X au lieu de Y) :</p>
+<p>Etapé 1 : On tire Y de l’éq. (1) * :</p>
+<p><i>Remarque : On peut utiliser X au lieu de Y</i></p>
 <div class="math notranslate nohighlight">
 \[
     120 = 4 X + 3 Y  \Rightarrow   3 Y   = 120 - 4 X \Rightarrow     Y = 40 - 4/3 X 
@@ -575,7 +576,9 @@ U'' = -8 &lt; 0
 <li><p>Quel est le niveau d’utilité obtenu ?</p></li>
 </ol>
 <div class="math notranslate nohighlight">
-\[U(X^{*}, Y^{*}) = 3X^{*}Y^{*} = 3 \times 15 \times 24 = 1080\]</div>
+\[\begin{split}U(X^{*}, Y^{*}) &amp;= 3X^{*}Y^{*}  \\
+&amp;= 3 \times 15 \times 24 \\
+&amp;= 1080\end{split}\]</div>
 </div>
 </div>
 <div class="section" id="exercice-4">
@@ -591,9 +594,49 @@ U : \mathbb{R^{+}} \times \mathbb{R^{+}} &amp; \rightarrow \mathbb{R} \\
 <p>Supposons qu’il dispose d’un revenu <span class="math notranslate nohighlight">\(R =100\)</span> et fait face aux prix <span class="math notranslate nohighlight">\(p_x = 1\)</span> et <span class="math notranslate nohighlight">\(p_y = 2\)</span>.</p>
 <ol class="simple">
 <li><p>Donner l’équation de la droite budgétaire.</p></li>
+</ol>
+<p>Pour <span class="math notranslate nohighlight">\(P= (Px, Py) = (1,2)\)</span> et <span class="math notranslate nohighlight">\(R=100\)</span></p>
+<p>La droite du budget est égale : <span class="math notranslate nohighlight">\(Y= -0.5X+ 50\)</span></p>
+<ol class="simple">
 <li><p>Déterminer la combinaison optimale de X et Y, en utilisant la méthode de
 Lagrange. Déduire la satisfaction totale ? Il est supposé que les conditions de deuxième
 ordre sont vérifiées.</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\{
+    \begin{array}{ll}
+    Max ~~ U(X,Y) \\ 
+    R = p_{x} X + p_{y} Y \\
+    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
+    \end{array}
+\right.
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[L(X,Y, \lambda) = U(X,Y) - \lambda(R - p_{x} X - p_{y} Y )\]</div>
+<div class="math notranslate nohighlight">
+\[
+L(X,Y, \lambda) = X^2Y + X - \lambda(100 - X - 2Y )
+\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\frac{\partial L(X,Y, \lambda)}{\partial X} = 0 &amp; \Rightarrow  2XY+1-\lambda = 0 \\
+                                         &amp; \Rightarrow  \lambda  = 2XY+1
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\frac{\partial L(X,Y, \lambda)}{\partial y} = 0 &amp; \Rightarrow X^2-2\lambda =0 \\
+                               &amp;  \Rightarrow \lambda =\dfrac{1}{2} X^2 
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+\dfrac{2XY+1}{\dfrac{1}{2} X^2} = 1 \Rightarrow
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \Rightarrow 100 = X + 2Y
+\]</div>
+<ol class="simple">
 <li><p>Sachant que les prix des biens X et Y augmentent respectivement de 15 DH et
 30 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.</p></li>
 <li><p>Sachant que le revenu diminue de 20%, trouver la nouvelle combinaison
@@ -605,7 +648,9 @@ optimale ? Les prix restent constants.</p></li>
 <center><font color='red'>Vous avez 5 min !</font></center>
 <div class="attention dropdown admonition">
 <p class="admonition-title"><font color='blue'>Réponse de l’exercice 4</font></p>
-<p>Les préférences d’un consommateur sont reprÈsentÈes par la fonction d’utilité <span class="math notranslate nohighlight">\( U(X,Y) = X^2Y + X\)</span></p>
+<p>Les préférences d’un consommateur sont reprÈsentÈes par la fonction d’utilité</p>
+<div class="math notranslate nohighlight">
+\[U(X,Y) = X^2Y + X\]</div>
 <p>Supposons qu’il dispose d’un revenu R =100 et fait face aux prix px = 1 et py = 2.</p>
 <ol class="simple">
 <li><p>Donner l’équation de la droite budgétaire.</p></li>

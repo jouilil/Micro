@@ -117,19 +117,19 @@ On suppose que le revenu du consommateur est égal à 10.
 
 1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité $U_1 = 10$ et $U_2 = 16$.
 
-Pour U = 
+Soit U = $\overline{U}$
 
 $$
-U = 2x + 3y  \Rightarrow y = \dfrac{U-2x}{3}
+U = 2x + 3y  \Rightarrow y = \dfrac{\overline{U}-2x}{3}
 $$
 
 Pour U = 10, la courbe d’indifférence serait
 
-$ U = 10 \Rightarrow y = \dfrac{10-2x}{3} $
+$ \overline{U} = 10 \Rightarrow y = \dfrac{10-2x}{3} $
 
 Pour U = 16, la courbe d’indifférence serait
 
-$ U = 16 \Rightarrow y = \dfrac{16-2x}{3}$
+$ \overline{U} = 16 \Rightarrow y = \dfrac{16-2x}{3}$
 
 
 2- Calculer les utilités marginales et le TMS du bien Y au bien X, puis commenter.
@@ -148,11 +148,11 @@ X et Y. Déterminer sa pente. On donne $(p_x, p_y) = (2,2)$
 
 La droite du budget 
 
-$ R= XPx+Ypy \Rightarrow Y= \dfrac{-Px}{Py}x+\dfrac{R}{Py} $
+$ R= XPx+Ypy \Rightarrow Y= \dfrac{-Px}{Py}X+\dfrac{R}{Py} $
 
 Pour $P= (Px, Py) = (2,2)$ et $R=10$
 
-La droite du budget est la suivante : $y= -x+ 5$
+La droite du budget est donnée par : $Y= -X+ 5$
 
 4- Déterminez l’optimum du consommateur.
 
@@ -218,7 +218,9 @@ $$
 
 $$
 
-Etapé 1 : On tire Y de l'éq. (1) (Remarque : On peut utiliser X au lieu de Y) : 
+Etapé 1 : On tire Y de l'éq. (1) * : 
+
+<i>Remarque : On peut utiliser X au lieu de Y</i>
 
 $$
     120 = 4 X + 3 Y  \Rightarrow   3 Y   = 120 - 4 X \Rightarrow     Y = 40 - 4/3 X 
@@ -256,7 +258,9 @@ $$
 
 $$ 
 
-U(X^{*}, Y^{*}) = 3X^{*}Y^{*} = 3 \times 15 \times 24 = 1080
+U(X^{*}, Y^{*}) &= 3X^{*}Y^{*}  \\
+&= 3 \times 15 \times 24 \\
+&= 1080
 
 $$
 
@@ -280,9 +284,52 @@ Supposons qu'il dispose d'un revenu $R =100$ et fait face aux prix $p_x = 1$ et 
 
 1. Donner l'équation de la droite budgétaire.
 
+Pour $P= (Px, Py) = (1,2)$ et $R=100$
+
+La droite du budget est égale : $Y= -0.5X+ 50$
+
+
 2. Déterminer la combinaison optimale de X et Y, en utilisant la méthode de
 Lagrange. Déduire la satisfaction totale ? Il est supposé que les conditions de deuxième
 ordre sont vérifiées.
+
+$$
+\left\{
+    \begin{array}{ll}
+    Max ~~ U(X,Y) \\ 
+    R = p_{x} X + p_{y} Y \\
+    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
+    \end{array}
+\right.
+$$
+
+$$
+
+L(X,Y, \lambda) = U(X,Y) - \lambda(R - p_{x} X - p_{y} Y )
+
+$$
+
+$$
+L(X,Y, \lambda) = X^2Y + X - \lambda(100 - X - 2Y )
+$$
+
+$$
+\frac{\partial L(X,Y, \lambda)}{\partial X} = 0 & \Rightarrow  2XY+1-\lambda = 0 \\
+                                         & \Rightarrow  \lambda  = 2XY+1
+$$
+
+$$
+\frac{\partial L(X,Y, \lambda)}{\partial y} = 0 & \Rightarrow X^2-2\lambda =0 \\
+                               &  \Rightarrow \lambda =\dfrac{1}{2} X^2 
+$$
+
+$$
+\dfrac{2XY+1}{\dfrac{1}{2} X^2} = 1 \Rightarrow
+$$
+
+$$
+\frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \Rightarrow 100 = X + 2Y
+$$
 
 3. Sachant que les prix des biens X et Y augmentent respectivement de 15 DH et
 30 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.
@@ -301,7 +348,13 @@ optimale ? Les prix restent constants.
 ```{admonition} <font color='blue'>Réponse de l'exercice 4</font>
 :class: attention, dropdown
 
-Les préférences d'un consommateur sont reprÈsentÈes par la fonction d'utilité $ U(X,Y) = X^2Y + X$
+Les préférences d'un consommateur sont reprÈsentÈes par la fonction d'utilité
+
+$$
+
+U(X,Y) = X^2Y + X
+
+$$
 
 Supposons qu'il dispose d'un revenu R =100 et fait face aux prix px = 1 et py = 2. 
 
