@@ -1,8 +1,8 @@
-# Microéconomie
+# Microéconomie I
 
 ###### AU : 2022-2023
 
-<i> Fiche conçue et développée par l'Equipe de Micro 1</i>
+<i> Fiche conçue et développée par l'Equipe de Micro</i>
 
 
 :::{Note}
