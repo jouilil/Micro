@@ -1,4 +1,8 @@
-# Equipe de micro
+# Microéconomie
+
+###### 2022-2023
+
+<i>Conçue et développée par l'Equipe de Micro 1</i>
 
 
 :::{Note}
