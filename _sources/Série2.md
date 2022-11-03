@@ -64,7 +64,11 @@ $$
                                 & \Rightarrow \dfrac{Umx}{Umy}= 0.8 \\
 $$
 
-Donc les quantitiés optimales sont données par le couple : $(X,Y) = (8,8)$
+Donc les quantitiés optimales sont données par le couple : 
+
+$$
+(X,Y) = (8,8)
+$$
 
 ```
 
