@@ -57,12 +57,18 @@ R=Xp_x+Yp_y  & \Rightarrow 360= 20X +25Y \\
               & \Rightarrow Y = 14.4 - 0.8X \\
 $$
 
-4. Déterminer les quantités demandées à l'équilibre. Justifier votre réponse!
+
+4- Déterminer les quantités demandées à l'équilibre. Justifier votre réponse!
+
+A l'équilibre :
 
 $$
+
 \dfrac{Umx}{Px}=\dfrac{Umy}{Py} & \Rightarrow \dfrac{Umx}{Umy}=\dfrac{Px}{Py} \\
                                 & \Rightarrow \dfrac{Umx}{Umy}= 0.8 \\
 $$
+
+Or, d'après le tableau, on constate que :
 
 $$
 
@@ -73,7 +79,7 @@ $$
 Donc les quantitiés optimales sont données par le couple : 
 
 $$
-(X,Y) = (8,8)
+(X^{Opt},Y^{Opt}) = (8,8)
 $$
 
 ```
@@ -86,14 +92,14 @@ Soit un consommateur dont on représente la relation de préférence par la fonc
 
 $$
 U : \mathbb{R^{+}} \times \mathbb{R^{+}} & \rightarrow \mathbb{R} \\
-(x, y)   & \longmapsto 2x + 3y
+(x, y)   & \longmapsto x(2 + 3y)
 $$
 
 On suppose que le revenu du consommateur est égal à $10$.
 
 1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité $U_1 = 10$ et $U_2 = 16$.
 
-2- Calculer les utilités marginales et le TMS du bien Y au bien X, puis commenter.
+2- Calculer les utilités marginales et le TMS du bien Y au bien X.
 
 3- Ecrire l’équation de la droite de budget en notant px et py les prix respectifs des biens
 X et Y. Déterminer sa pente. On donne $(p_x, p_y) = (2,2)$
@@ -110,38 +116,48 @@ X et Y. Déterminer sa pente. On donne $(p_x, p_y) = (2,2)$
 Soit un consommateur dont on représente la relation de préférence par la fonction d’utilité suivante : 
 
 $$
-U(x, y) = 2x + 3y
+U(x, y) = x(2 + 3y)
 $$
 
 On suppose que le revenu du consommateur est égal à 10.
 
 1- Déterminer l’équation des courbes d’indifférence associées aux niveaux d’utilité $U_1 = 10$ et $U_2 = 16$.
 
-Soit U = $\overline{U}$
+Soit U = $\overline{U}$ fixe :
 
 $$
-U = 2x + 3y  \Rightarrow y = \dfrac{\overline{U}-2x}{3}
+
+U = x(2 + 3y)  & \Rightarrow 3y +2 = \dfrac{\overline{U}}{x} \\
+                & \Rightarrow 3y = \dfrac{\overline{U}}{x}-2 \\
+                & \Rightarrow y = \dfrac{\overline{U}}{3x} - \dfrac{2}{3} \\
 $$
 
 Pour U = 10, la courbe d’indifférence serait
 
-$ \overline{U} = 10 \Rightarrow y = \dfrac{10-2x}{3} $
+$$
+\overline{U} = 10 \Rightarrow y = \dfrac{10}{3x} - \dfrac{2}{3} 
+$$
 
 Pour U = 16, la courbe d’indifférence serait
 
-$ \overline{U} = 16 \Rightarrow y = \dfrac{16-2x}{3}$
+$$
+\overline{U} = 16 \Rightarrow y = \dfrac{16}{3x} - \dfrac{2}{3} 
+$$
 
 
-2- Calculer les utilités marginales et le TMS du bien Y au bien X, puis commenter.
+2- Calculer les utilités marginales et le TMS du bien Y au bien X.
+
+On a :
+
+$Um_x = \dfrac{dU(x,y)}{dx}=2+3y$ et $Um_y = \dfrac{dU(x,y)}{dy} =3x$
 
 
-$ TMS = \dfrac{Umx}{Umy} \Rightarrow TMS = \dfrac{2}{3}$
+Donc :
 
-$Um_x = \dfrac{dU(x,y)}{dx}=2$
+$$
+TMS = \dfrac{Umx}{Umy} \Rightarrow TMS = \dfrac{2+3y}{3x}
+$$
 
-$Um_y = \dfrac{dU(x,y)}{dy} =3$
-
-Le consommateur est prêt à céder 0,6667 unités de x pour une unité de y.
 
 3- Ecrire l’équation de la droite de budget en notant px et py les prix respectifs des biens
 X et Y. Déterminer sa pente. On donne $(p_x, p_y) = (2,2)$
@@ -156,6 +172,21 @@ La droite du budget est donnée par : $Y= -X+ 5$
 
 4- Déterminez l’optimum du consommateur.
 
+A l'équilibre :
+
+$$
+
+\dfrac{Umx}{Px}=\dfrac{Umy}{Py} & \Rightarrow  Umx= Umy ~~~ (car~~ Px=Py=2)\\ 
+                                   & \Rightarrow 2 +3y = 3x \\
+                                & \Rightarrow y= x-\dfrac{2}{3} 
+
+$$
+
+On remplace $y= x-\dfrac{2}{3} $ par sa valeur dans l'équation de la droite budgétaire, on aura :
+
+$$
+x = \dfrac{17}{6} ~~~;~~~ y = \dfrac{13}{6}
+$$
 
 
 ```
@@ -218,7 +249,7 @@ $$
 
 $$
 
-Etapé 1 : On tire Y de l'éq. (1) * : 
+EtapE 1 : On tire Y de l'éq. (2) * : 
 
 <i>Remarque : On peut utiliser X au lieu de Y</i>
 
@@ -244,13 +275,13 @@ $$
 
 Les quantités optimales sont données par  :
 
-$ X^{*} = 15$ et $Y^{*} = 40-4/3 X = 24 $
+$ X^{*} = 15$ et $Y^{*} = 40-4/3 X = 20 $
 
 
 Ainsi :
 
 $$
-(X^{*}, Y^{*}) = (15,24)
+(X^{*}, Y^{*}) = (15,20)
 $$
 
 
@@ -259,8 +290,8 @@ $$
 $$ 
 
 U(X^{*}, Y^{*}) &= 3X^{*}Y^{*}  \\
-&= 3 \times 15 \times 24 \\
-&= 1080
+&= 3 \times 15 \times 20 \\
+&= 900
 
 $$
 
@@ -277,62 +308,20 @@ Les préférences d'un consommateur sont représentées par la fonction d'utilit
 
 $$
 U : \mathbb{R^{+}} \times \mathbb{R^{+}} & \rightarrow \mathbb{R} \\
-(X, Y)   & \longmapsto X^2Y + X
+(X, Y)   & \longmapsto 3X^2Y
 $$
 
 Supposons qu'il dispose d'un revenu $R =100$ et fait face aux prix $p_x = 1$ et $p_y = 2$. 
 
 1. Donner l'équation de la droite budgétaire.
 
-Pour $P= (Px, Py) = (1,2)$ et $R=100$
-
-La droite du budget est égale : $Y= -0.5X+ 50$
-
 
 2. Déterminer la combinaison optimale de X et Y, en utilisant la méthode de
 Lagrange. Déduire la satisfaction totale ? Il est supposé que les conditions de deuxième
 ordre sont vérifiées.
 
-$$
-\left\{
-    \begin{array}{ll}
-    Max ~~ U(X,Y) \\ 
-    R = p_{x} X + p_{y} Y \\
-    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
-    \end{array}
-\right.
-$$
-
-$$
-
-L(X,Y, \lambda) = U(X,Y) - \lambda(R - p_{x} X - p_{y} Y )
-
-$$
-
-$$
-L(X,Y, \lambda) = X^2Y + X - \lambda(100 - X - 2Y )
-$$
-
-$$
-\frac{\partial L(X,Y, \lambda)}{\partial X} = 0 & \Rightarrow  2XY+1-\lambda = 0 \\
-                                         & \Rightarrow  \lambda  = 2XY+1
-$$
-
-$$
-\frac{\partial L(X,Y, \lambda)}{\partial y} = 0 & \Rightarrow X^2-2\lambda =0 \\
-                               &  \Rightarrow \lambda =\dfrac{1}{2} X^2 
-$$
-
-$$
-\dfrac{2XY+1}{\dfrac{1}{2} X^2} = 1 \Rightarrow
-$$
-
-$$
-\frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \Rightarrow 100 = X + 2Y
-$$
-
-3. Sachant que les prix des biens X et Y augmentent respectivement de 15 DH et
-30 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.
+3. Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
+4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.
 
 4. Sachant que le revenu diminue de 20\%, trouver la nouvelle combinaison
 optimale ? Les prix restent constants.
@@ -352,7 +341,7 @@ Les préférences d'un consommateur sont reprÈsentÈes par la fonction d'utilit
 
 $$
 
-U(X,Y) = X^2Y + X
+U(X,Y) = 3X^2Y
 
 $$
 
@@ -361,8 +350,77 @@ Supposons qu'il dispose d'un revenu R =100 et fait face aux prix px = 1 et py = 
 1. Donner l'équation de la droite budgétaire.
 
 $$
-R = pxX +pyY \Rightarrow  100 = x + 2y \Rightarrow  y = 50 - 1/2x
+R = pxX +pyY \Rightarrow  100 = x + 2y \Rightarrow  y = 50 - \dfrac{1}{2}x
 $$
+
+
+$$
+\left\{
+    \begin{array}{ll}
+    Max ~~ U(X,Y) \\ 
+    R = p_{x} X + p_{y} Y \\
+    ( X , Y ) \in \mathbb{R^{+}} \times \mathbb{R^{+}}
+    \end{array}
+\right.
+$$
+
+$$
+
+L(X,Y, \lambda) = U(X,Y) - \lambda(R - p_{x} X - p_{y} Y )
+
+$$
+
+$$
+L(X,Y, \lambda) = 3X^2Y - \lambda(100 - X - 2Y )
+$$
+
+$$
+L^{'}_{x} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial X} = 0  \\
+                & \Rightarrow  6XY-\lambda = 0 \\
+               & \Rightarrow  \lambda  = 6XY
+$$
+
+$$
+L^{'}_{y} = 0 & \Rightarrow \frac{\partial L(X,Y, \lambda)}{\partial y} = 0 \\
+                                       & \Rightarrow 3X^2-\lambda =0 \\
+                               &  \Rightarrow \lambda = 3X^2 
+$$
+
+$$
+
+\dfrac{6XY}{3X^2} = 1 & \Rightarrow 2XY = X^2 \\
+                                    & Y = 2X
+$$
+
+$$
+\frac{\partial L(X,Y, \lambda)}{\partial \lambda} =  0 \Rightarrow 100 = X + 2Y
+$$
+
+Pour $Y= 2X$ :
+
+$$
+100 - X - 2Y = 0  & \Rightarrow  100 -X -4X = 0 \\   
+                & \Rightarrow  X = 20 \\
+                 & \Rightarrow  Y = 40 
+$$
+
+L'optimum est donné par $(20,40)$. 
+
+Ainsi, l'utilité totale $U^{*} = U(20,40) = 20^2 \times 40 = 16.000$.
+
+3. Sachant que les prix des biens X et Y augmentent respectivement de 3 DH et
+4 DH, trouver la nouvelle combinaison optimale ? Le revenu restant constant.
+
+R= 100 , P'x = 1+3 = 4 et P'y= 2+4 = 6 :
+
+$$
+100= 4X+6Y  & \Rightarrow  50 = 2X+3Y \\
+            & \Rightarrow  50 = 2 \times 4Y+3Y \\
+            & \Rightarrow  Y= \dfrac{50}{11} \\
+            & \Rightarrow  X= \dfrac{200}{11} \\
+$$
+
+L'optimum est donné par $(\dfrac{200}{11}, \dfrac{50}{11})$. 
 
 ```
 ###### Exercice 5
@@ -429,7 +487,7 @@ $$
 Donc
 
 $$
-Y = $\dfrac{2}{3} \Rightarrow X =\dfrac{1}{2}
+Y = \dfrac{2}{3} \Rightarrow X =\dfrac{1}{2}
 $$
 
 ```
@@ -480,9 +538,10 @@ ou X et Y sont les quantités à consommées des biens X et Y. Posons $P_X$ et $
 1- Vérifier l'homogénéité de cette fonction d'utilité.
 
 $$
-U(kX, kY)= U_0 & = {kX}^{3/4}{kY}^{1/4}\\
+U(kX, kY) & = {(kX)}^{3/4}{(kY)}^{1/4}\\
+            & = k^{3/4+1/4}X^{3/4}Y^{1/4} \\
             & = kX^{3/4}Y^{1/4} \\
-             & = k U(X,Y) \\
+             & = k U(X,Y)
 $$
 
 Donc la fonction U est homogène de degré 1
@@ -543,7 +602,13 @@ R= XP_X+YP_Y & \Rightarrow 272 = 15X+9Y \\
              & \Rightarrow X = 13.6 \\
 $$
 
-Donc la combinaison d'équilibre est donnée par (X = 13.6, Y = 7.55).
+Donc la combinaison d'équilibre est donnée par :
+
+$$
+
+(X = 13.6, Y = 7.55)
+
+$$
 
 ```
 
